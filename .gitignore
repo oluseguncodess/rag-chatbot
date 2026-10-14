@@ -1,0 +1,19 @@
+# Python virtual environments & bytecode
+**/venv/
+**/.venv/
+**/__pycache__/
+*.pyc
+
+# Local databases & secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/chroma_db/
+*.sqlite3
+*.duckdb
+
+# Frontend dependencies & build artifacts
+**/node_modules/
+**/dist/
+**/dist-ssr/
+*.log
